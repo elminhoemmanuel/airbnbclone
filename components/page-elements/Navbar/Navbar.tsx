@@ -3,10 +3,10 @@ import NavbarSmall from '../NavbarSmall'
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
         <NavbarLarge />
         <NavbarSmall />
-    </div>
+    </nav>
   )
 }
 
