@@ -12,3 +12,53 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Styles for Swiper carousel  */
+.swiper-container{
+    width:100%;
+    height:auto !important;
+    position: relative;
+    list-style: none;
+}
+
+.swiper-wrapper{
+    padding-inline-start: 0;
+    margin-left: 6% !important;
+}
+
+.swiper-button-prev{
+    background-color: white !important;
+    color:black !important;
+    position: absolute !important;
+    background-image: url('https://img.icons8.com/windows/32/000000/circled-chevron-left.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 26px !important;
+    border-radius: 999px;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-next{
+    background-color: white !important;
+    color:black !important;
+    position: absolute !important;
+    background-image: url('https://img.icons8.com/windows/32/000000/circled-chevron-right.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 26px !important;
+    border-radius: 999px;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+/* media queries for swiper carousel */
+@media screen and (max-width: 769px) {
+    .swiper-wrapper{
+        margin-left: 0% !important;
+    }
+}

@@ -1,3 +1,4 @@
+import Categories from '@/components/page-elements/Categories'
 import Navbar from '@/components/page-elements/Navbar'
 import Head from 'next/head'
 
@@ -11,6 +12,7 @@ export default function Home() {
 
       <div className='2xl:max-w-screen-2xl 2xl:mx-auto w-full text-gray-500 text-sm'>
         <Navbar />
+        <Categories />
       </div>
       
     </div>

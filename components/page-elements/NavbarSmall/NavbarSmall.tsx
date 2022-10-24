@@ -9,7 +9,7 @@ const NavbarSmall = () => {
                     <BiSearch className="block w-6 h-6 mr-4 text-gray-800" />
                     <div className="text-left">
                         <p className="text-gray-800 font-bold">Where to?</p>
-                        <p>Anywhere <span>&#183;</span> Any week <span>&#183;</span> Add guests</p>
+                        <p><span className="whitespace-nowrap">Anywhere</span>&#183; <span className="whitespace-nowrap">Any week</span> &#183; <span className="whitespace-nowrap">Add guests</span></p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center p-2 border border-gray-400 rounded-full">
