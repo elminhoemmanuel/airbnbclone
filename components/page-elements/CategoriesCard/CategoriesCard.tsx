@@ -18,8 +18,8 @@ const CategoriesCard = ({ data, active, onClick }: props) => {
          border-white focus:outline-none ${active? "border-gray-700": "border-white hover:border-gray-200"}`}
          onClick={onClick}
         >
-            <div className='mb-1'>{data.icon}</div>
-            <p className='mb-1'>{data.title}</p>
+            <div className={`mb-1 ${active? "text-gray-800": ""}`}>{data.icon}</div>
+            <p className={`mb-1 ${active? "text-gray-800": ""}`}>{data.title}</p>
         </button>
     )
 }

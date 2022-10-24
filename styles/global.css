@@ -26,6 +26,10 @@ body {
     margin-left: 6% !important;
 }
 
+.img-swiper .swiper-wrapper{
+    margin-left: 0% !important;
+}
+
 .swiper-button-prev{
     background-color: white !important;
     color:black !important;
@@ -35,6 +39,10 @@ body {
     background-size: 100% auto;
     height: 26px !important;
     border-radius: 999px;
+}
+
+.img-swiper .swiper-button-prev{
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/back--v1.png') !important;
 }
 
 .swiper-button-prev::after {
@@ -50,6 +58,10 @@ body {
     background-size: 100% auto;
     height: 26px !important;
     border-radius: 999px;
+}
+
+.img-swiper .swiper-button-next{
+    background-image: url('https://img.icons8.com/material-outlined/24/000000/forward--v1.png') !important;
 }
 
 .swiper-button-next::after {
