@@ -1,3 +1,4 @@
+import FilterCta from '@/components/common/FilterCta'
 import React from 'react'
 import CarouselLarge from '../CarouselLarge'
 import CarouselSmall from '../CarouselSmall'
@@ -9,8 +10,8 @@ const Categories = () => {
             <CarouselSmall />
             <CarouselLarge />
         </div>
-        <div className='hidden md:col-span-1'>
-            
+        <div className='hidden md:block px-2'>
+            <FilterCta />
         </div>
     </div>
   )
