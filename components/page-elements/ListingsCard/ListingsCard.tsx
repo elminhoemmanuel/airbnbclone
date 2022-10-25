@@ -1,7 +1,5 @@
 import ImgCarousel from '@/components/common/ImgCarousel';
-import React from 'react'
 import { AiFillStar } from "react-icons/ai"
-import { BsHeart, BsHeartFill } from "react-icons/bs"
 import LikeBtn from '../LikeBtn';
 
 export type ListingData = {

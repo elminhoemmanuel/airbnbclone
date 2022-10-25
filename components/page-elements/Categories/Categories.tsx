@@ -1,5 +1,4 @@
 import FilterCta from '@/components/common/FilterCta'
-import React from 'react'
 import CarouselLarge from '../CarouselLarge'
 import CarouselSmall from '../CarouselSmall'
 

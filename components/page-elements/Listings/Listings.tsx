@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { initialListings } from 'data'
-import React from 'react'
 import ListingsCard from '../ListingsCard'
 import { ListingData } from '../ListingsCard/ListingsCard'
 

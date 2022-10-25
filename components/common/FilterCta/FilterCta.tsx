@@ -1,4 +1,3 @@
-import React from 'react'
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2"
 
 const FilterCta = () => {
