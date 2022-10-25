@@ -33,7 +33,7 @@ const ListingsCard = ({ data, onLike }: props) => {
                     </div>
                 </div>
                 <p>Hosted by {data.host}</p>
-                <p className='mb-3'>{data.available}</p>
+                <p className='mb-2'>{data.available}</p>
                 <p><span className='text-gray-800 font-bold'>${data.cost}</span> night</p>
             </div>
             <LikeBtn data={data} onLike={onLike} />

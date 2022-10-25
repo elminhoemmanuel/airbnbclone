@@ -24,7 +24,7 @@ const Listings = () => {
     }
 
     return (
-        <div className='py-4 px-6 md:px-8 lg:px-12 gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
+        <div className='mb-12 py-4 px-6 md:px-8 lg:px-12 gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
             {
                 listings?.map((item) => (
                     <ListingsCard onLike={onLike} data={item} key={item.id} />
