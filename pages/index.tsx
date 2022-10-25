@@ -2,6 +2,7 @@ import Categories from '@/components/page-elements/Categories'
 import Footer from '@/components/page-elements/Footer'
 import Listings from '@/components/page-elements/Listings'
 import Navbar from '@/components/page-elements/Navbar'
+import ShowMapBtn from '@/components/page-elements/ShowMapBtn/ShowMapBtn'
 import Head from 'next/head'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Categories />
         <Listings />
         <Footer />
+        <ShowMapBtn />
       </div>
       
     </div>
