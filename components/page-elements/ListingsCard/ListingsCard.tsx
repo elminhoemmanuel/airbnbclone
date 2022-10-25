@@ -1,8 +1,10 @@
 import ImgCarousel from '@/components/common/ImgCarousel';
 import React from 'react'
 import { AiFillStar } from "react-icons/ai"
+import { BsHeart, BsHeartFill } from "react-icons/bs"
+import LikeBtn from '../LikeBtn';
 
-type ListingData = {
+export type ListingData = {
     id: number;
     title: string;
     rating: number;
@@ -14,10 +16,11 @@ type ListingData = {
 }
 
 type props = {
-    data: ListingData
+    data: ListingData,
+    onLike: (id:number)=>void;
 }
 
-const ListingsCard = ({ data }: props) => {
+const ListingsCard = ({ data, onLike }: props) => {
     return (
         <div className='cursor-pointer relative'>
             <div className='rounded-xl'>
@@ -35,6 +38,7 @@ const ListingsCard = ({ data }: props) => {
                 <p className='mb-3'>{data.available}</p>
                 <p><span className='text-gray-800 font-bold'>${data.cost}</span> night</p>
             </div>
+            <LikeBtn data={data} onLike={onLike} />
         </div>
     )
 }

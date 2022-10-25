@@ -103,7 +103,7 @@ export const houseCategories = [
     },
 ]
 
-export const listings = [
+export const initialListings = [
     {
         id:1,
         title: '5 bedroom Duplex in Ajah',
