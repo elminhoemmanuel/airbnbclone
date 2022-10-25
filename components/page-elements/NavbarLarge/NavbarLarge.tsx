@@ -7,7 +7,7 @@ import UserToggle from '@/components/common/UserToggle'
 const NavbarLarge = () => {
   return (
     <div className='hidden md:flex items-center justify-between py-2 px-6 md:px-8 lg:px-12 border border-b-gray-200 gap-3'>
-        <Link href="#"><a><img className='h-16 w-24 block cursor-pointer' src="/images/airbnblogo.png" alt='logo' /></a></Link>
+        <Link href="#"><a><img id="airbnb-logo" className='h-16 w-24 block cursor-pointer' src="/images/airbnblogo.png" alt='logo' /></a></Link>
         <TopSelectorLarge />
         <div className='flex items-center gap-2'>
             <PrimaryBtn className='text-gray-800 text-xs lg:text-sm'>Become a Host</PrimaryBtn>

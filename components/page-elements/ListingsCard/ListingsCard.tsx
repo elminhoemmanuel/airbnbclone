@@ -20,7 +20,7 @@ type props = {
 
 const ListingsCard = ({ data, onLike }: props) => {
     return (
-        <div className='cursor-pointer relative'>
+        <div id='listing-card' className='cursor-pointer relative'>
             <div className='rounded-xl'>
                 <ImgCarousel images={data.images} />
             </div>
