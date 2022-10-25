@@ -3,12 +3,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, {
     Navigation,
     Pagination,
-    Virtual
+    Virtual,
+    FreeMode,
+    Mousewheel
 } from "swiper";
 import { houseCategories } from "data";
 import CategoriesCard from "../CategoriesCard";
 
-SwiperCore.use([Navigation, Pagination, Virtual]);
+SwiperCore.use([Navigation, Pagination, Virtual, FreeMode, Mousewheel]);
 
 export default function CarouselLarge() {
     const [active, setActive] = useState(1);
@@ -22,6 +24,9 @@ export default function CarouselLarge() {
                 slidesPerView={12}
                 spaceBetween={1}
                 navigation
+                freeMode
+                mousewheel
+                direction={"horizontal"}
             >
                 {
                     houseCategories.map((item) => (

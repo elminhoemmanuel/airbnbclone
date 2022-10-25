@@ -1,35 +1,40 @@
 import { TbRocket } from "react-icons/tb"
+import { FaUmbrellaBeach, FaSwimmingPool, FaBuilding, FaCity } from "react-icons/fa"
+import { BsBuilding, BsFillStarFill, BsSnow } from "react-icons/bs"
+import { GiPalmTree, GiMountainCave, GiFamilyHouse, GiIsland, GiBeachBucket, GiDesert, GiRiver, GiStoneTower, GiFarmer } from "react-icons/gi"
+import { IoBoatSharp } from "react-icons/io5"
+import { MdPark, MdCabin } from "react-icons/md"
 
 export const houseCategories = [
     {
         id:1,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Beach',
+        icon: <FaUmbrellaBeach className="h-5 w-5" />
     },
     {
         id:2,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Design',
+        icon: <BsBuilding className="h-5 w-5" />
     },
     {
         id:3,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Tropical',
+        icon: <GiPalmTree className="h-5 w-5" />
     },
     {
         id:4,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Caves',
+        icon: <GiMountainCave className="h-5 w-5" />
     },
     {
         id:5,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Luxe',
+        icon: <BsFillStarFill className="h-5 w-5" />
     },
     {
         id:6,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Shared',
+        icon: <GiFamilyHouse className="h-5 w-5" />
     },
     {
         id:7,
@@ -38,68 +43,68 @@ export const houseCategories = [
     },
     {
         id:8,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Poolside',
+        icon: <FaSwimmingPool className="h-5 w-5" />
     },
     {
         id:9,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Mansions',
+        icon: <FaBuilding className="h-5 w-5" />
     },
     {
         id:10,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Boats',
+        icon: <IoBoatSharp className="h-5 w-5" />
     },
     {
         id:11,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Cities',
+        icon: <FaCity className="h-5 w-5" />
     },
     {
         id:12,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Arctic',
+        icon: <BsSnow className="h-5 w-5" />
     },
     {
         id:13,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Islands',
+        icon: <GiIsland className="h-5 w-5" />
     },
     {
         id:14,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Parks',
+        icon: <MdPark className="h-5 w-5" />
     },
     {
         id:15,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Beachfront',
+        icon: <GiBeachBucket className="h-5 w-5" />
     },
     {
         id:16,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Cabins',
+        icon: <MdCabin className="h-5 w-5" />
     },
     {
         id:17,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Lakes',
+        icon: <GiRiver className="h-5 w-5" />
     },
     {
         id:18,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Towers',
+        icon: <GiStoneTower className="h-5 w-5" />
     },
     {
         id:19,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Farms',
+        icon: <GiFarmer className="h-5 w-5" />
     },
     {
         id:20,
-        title: 'OMG!',
-        icon: <TbRocket className="h-5 w-5" />
+        title: 'Deserts',
+        icon: <GiDesert className="h-5 w-5" />
     },
 ]
 
