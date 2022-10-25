@@ -1,29 +1,40 @@
-# Next.js + Jest
+### Introduction
 
-This example shows how to configure Jest to work with Next.js.
+In this document I will be explaining some of the important decisions I have taken during the execution of this work as well as provide some good documentation about my completed solution.
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
+## Features
 
-## How to Use
+I have been able to do a clone of the aribnb home page as requested with the required features such as ;
 
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
+- listings in grid view
+- Navigation bar with the required elements
+- Categories filter etc.
 
-In your terminal, run the following command:
+### Built With
+
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+### Future Improvements ( if I had more time )
+
+- Fix very minor responsiveness issues generally.
+- Currently I have written a handful of unit tests using Jest and React Testing library and integration tests using cypress with more time I would love to add more test cases to cover for relevant edge cases.
+
+
+## How To Use
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
-```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+# Install dependencies
+$ npm i
 
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
+# Run the app
+$ npm run start
 
-## Run Jest Tests
-
-```bash
-npm test
+# Run tests
+$ npm run test
 ```

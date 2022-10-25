@@ -26,7 +26,7 @@ export default function ImgCarousel({ images }: props) {
                 {
                     images.map((item) => (
                         <SwiperSlide key={`slide-${item}`} style={{ listStyle: "none" }}>
-                            <img className="rounded-xl h-60 w-full roomImg" alt="listing image" src={`/images/${item}.jpg`} />
+                            <img className="rounded-xl h-60 w-full roomImg" alt={`listing-image-${item}`} src={`/images/${item}.jpg`} />
                         </SwiperSlide>
                     ))
                 }
